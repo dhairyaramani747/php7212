@@ -1,0 +1,44 @@
+<?php
+define("UNIVERSITY","MARWADI UNIVERSITY");
+define("passing",35);
+
+$s_name="Dhairya";
+$s_roll="999";
+$s_sem="6";
+$s1=88;
+$s2=88;
+$s3=88;
+$s4=88;
+$s5=88;
+
+$total=( $s1 + $s2 + $s3 + $s4 + $s5 );
+$per=$total/5;
+
+
+echo"<center><H2>" . UNIVERSITY . "</H2>";
+echo"<H3>" . "Previous_Sem_Result" . "</H3>";
+echo "<hr>";
+echo "student name : $s_name <br>"; 
+echo "student roll : $s_roll <br>"; 
+echo "student sem : $s_sem <br>"; 
+echo "====================================== <br>";
+echo "subject 1 : $s1 <br>"; 
+echo "subject 2 : $s2 <br>"; 
+echo "subject 3 : $s3 <br>"; 
+echo "subject 4 : $s4 <br>"; 
+echo "subject 5 : $s5 <br>"; 
+
+echo "total marks : $total <br>";
+echo "per : $per <br>"; 
+
+if ($s1 >= passing && $s2 >= passing && $s3 >= passing && $s4 >= passing && $s5 >= passing )
+
+{
+    echo "status : pass";
+}
+else
+{
+    echo "status : fail";
+}
+echo "</center>";
+?>
