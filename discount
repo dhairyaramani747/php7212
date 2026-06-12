@@ -1,0 +1,24 @@
+<?php
+$college="marwadi";
+$course="bca";
+
+if ($college=="marwadi")
+{
+	if($course=="bca")
+{
+	echo"90% discount to student";
+}
+
+else 
+{
+	echo"they are not in BCA";
+}
+
+}
+else 
+{
+	echo"they did not in marwadi";
+	
+}
+
+?>
