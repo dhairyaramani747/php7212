@@ -1,0 +1,10 @@
+<?php
+
+$sum=99;
+
+if($sum<100)
+{
+echo"The Number Less Than 100";
+}
+
+?>
