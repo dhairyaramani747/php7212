@@ -1,0 +1,14 @@
+<?php
+$text= "hello world,hello all";
+$find= "hello";
+
+if (strpos($text, $find)!==false)
+{
+	echo"Found";
+}
+
+else {
+	echo"not found";
+}
+echo"<br>";
+?>
