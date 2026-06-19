@@ -1,0 +1,8 @@
+<?php
+$stud=array("ROHAN"=>100,"JOHN"=>101,"DON"=>102,"TRUMP"=>103);
+
+FOREACH($stud as $key=>$value)
+{
+	echo"Name is ".$key. " and Roll no is " .$value. ".<br>";
+}
+?>
