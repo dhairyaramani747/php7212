@@ -1,0 +1,8 @@
+<?php
+$sea = array("Summer","Winter","Spring");
+
+for ($i = 0; $i< count($sea); $i++)
+{
+echo "$sea[$i]<br>";
+}
+?>
