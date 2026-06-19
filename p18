@@ -1,0 +1,9 @@
+<?php
+
+$t1 ="hello world!";
+echo strlen($text);
+
+echo"<br/>"
+
+
+?>
