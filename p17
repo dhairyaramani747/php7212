@@ -1,0 +1,11 @@
+<?php 
+
+$t1= "hello world";
+echo ltrim($t1);
+
+echo"\n";
+$t2 ="   hello world!   ";
+
+echo rtrim($t2);
+
+?>
