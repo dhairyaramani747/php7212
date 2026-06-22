@@ -1,0 +1,4 @@
+<?php
+$d=mktime(12, 23, 54, 6, 22, 2026);
+echo "Created date is ".date("Y m d h:i:s:a",$d);
+?>
